@@ -3,6 +3,10 @@
     margin: 0;
     padding: 0;
 }
+/*Before Nav part*/
+.iconOnTop{
+    position:relative; left:600px; 
+}
 /*Nav*/
 nav{
     background-color: #f6f4eb;
@@ -40,26 +44,26 @@ nav a:hover{
 .fa {
     padding: 20px;
     text-decoration: none;
-    border-radius: 50%;
+    border-radius: 20%;
     font-size: 1rem;
     padding: 0.5rem;
     margin: 0.5rem;
     }
 .fa-facebook {
-    color: #3B5998;
-    border: 0.15rem solid #3B5998;
+    color: #227f83;
+    border: 0.15rem solid #227f83;
     }
 .fa-twitter {
-    color: #55ACEE;
-    border: 0.15rem solid #55ACEE;
+    color: #227f83;
+    border: 0.15rem solid #227f83;
     }
 .fa-linkedin {
-    color: #007bb5;
-    border: 0.15rem solid #007bb5;
+    color: #227f83;
+    border: 0.15rem solid #227f83;
       }
 .fa-instagram {
-    color: 125688;
-    border: 0.15rem solid #125688;
+    color: #227f83;
+    border: 0.15rem solid #227f83;
     }      
 .fa:hover {
         color: gray;
