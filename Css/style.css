@@ -1,0 +1,153 @@
+*{
+    scroll-behavior: smooth;
+    margin: 0;
+    padding: 0;
+}
+/*Before Nav part*/
+.iconOnTop{
+    position:relative; left:600px; 
+}
+/*Nav*/
+nav{
+    background-color: #f6f4eb;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+}
+nav a{
+    padding: 10px;
+    color: #227f83;
+    text-decoration: none;
+    border-bottom: 4px solid transparent;
+    transition-property: text;
+    font-size: 1rem;
+}
+nav a:hover{
+    border-bottom: 4px solid #227f83;
+    color: black;
+}
+
+/*Our Services*/
+.card-body h5{
+    color: #227f83;
+}
+
+/*Our Capabilities*/
+.card{
+    transform: translateY(10px);
+    transition: 0.1s all
+}
+.card:hover{
+    box-shadow: -1px 9px 40px -12px rgba(0,0,0,0.75);
+    transform: translateY(0px);
+}
+
+/*footer*/
+.fa {
+    padding: 20px;
+    text-decoration: none;
+    border-radius: 20%;
+    font-size: 1rem;
+    padding: 0.5rem;
+    margin: 0.5rem;
+    }
+.fa-facebook {
+    color: #227f83;
+    border: 0.15rem solid #227f83;
+    }
+.fa-twitter {
+    color: #227f83;
+    border: 0.15rem solid #227f83;
+    }
+.fa-linkedin {
+    color: #227f83;
+    border: 0.15rem solid #227f83;
+      }
+.fa-instagram {
+    color: #227f83;
+    border: 0.15rem solid #227f83;
+    }      
+.fa:hover {
+        color: gray;
+        border: 0.15rem solid gray;
+    }
+.footer-icon{
+    display:inline-block;
+    justify-content:center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+@import url("https://fonts.googleapis.com/css?family=Poppins");
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+.grid{
+    display: grid;
+    width: 114em;
+    grid-gap: 6rem;
+    grid-template-columns: repeat(auto-fit, minmax(30rem,lfr));
+    align-items: start;
+
+}
+
+.card-group{
+    margin-left: 10px;
+    
+}
+
+.carousel-caption{
+    color:#85c7b5;
+    font-weight: 600;
+    font-style: italic;
+}
+
+
+
+.t-block-1{
+    color: blue;
+    position: absolute;
+    bottom: 20px;
+    background: transparent;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.t-block{
+    color: white;
+    position: absolute;
+    bottom: 20px;
+    background: transparent;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.text-block{
+    color:black;
+    position: absolute;
+    bottom: 20px;
+    background: transparent;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.c1:hover{
+    box-shadow: -1px 9px 40px -12px rgba(0,0,0,0.75);
+    transform: translateY(0px);
+}
+
+.c2:hover{
+    box-shadow: -1px 9px 40px -12px rgba(0,0,0,0.75);
+    transform: translateY(0px);
+}
+.c3:hover{
+    box-shadow: -1px 9px 40px -12px rgba(0,0,0,0.75);
+    transform: translateY(0px);
+}
+.c4:hover{
+    box-shadow: -1px 9px 40px -12px rgba(0,0,0,0.75);
+    transform: translateY(0px);
+}
