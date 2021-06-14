@@ -19,7 +19,6 @@
 .iconOnTop{
     /* position:relative; left:600px;  */
     display: inline-block;
-
 }
 /*Nav*/
 nav{
@@ -45,7 +44,7 @@ nav a:hover{
 }
 
 /*Our Capabilities*/
-.card{
+ .card{
     transform: translateY(10px);
     transition: 0.1s all
 }
@@ -53,8 +52,9 @@ nav a:hover{
     box-shadow: -1px 9px 40px -12px rgba(0, 0, 0, 0.75);
     transform: translateY(0px);
     /* background-color: #227f83;
-    color:#f6f4eb; */
-}
+    color:#f6f4eb; 
+} 
+
 
 /*footer*/
 .fa {
@@ -94,14 +94,6 @@ nav a:hover{
 
 @import url("https://fonts.googleapis.com/css?family=Poppins");
 
-* {
-    margin: 0;
-    padding: 0;
-}
-
-
-
-
 .grid{
     display: grid;
     width: 114em;
@@ -121,8 +113,6 @@ nav a:hover{
     font-weight: 600;
     font-style: italic;
 }
-
-
 
 .t-block-1{
     color: blue;
