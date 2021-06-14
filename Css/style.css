@@ -3,9 +3,23 @@
     margin: 0;
     padding: 0;
 }
+/* ProgressBar */
+.progress-bar{
+    height: 5px;
+    width: 0;
+    background-color: #227f83;
+    margin-top: -3px;
+}
+.box{
+    position: fixed;
+    background-color: white;
+    width: 100%;
+}
 /*Before Nav part*/
 .iconOnTop{
-    position:relative; left:600px; 
+    /* position:relative; left:600px;  */
+    display: inline-block;
+
 }
 /*Nav*/
 nav{
@@ -36,8 +50,10 @@ nav a:hover{
     transition: 0.1s all
 }
 .card:hover{
-    box-shadow: -1px 9px 40px -12px rgba(0,0,0,0.75);
+    box-shadow: -1px 9px 40px -12px rgba(0, 0, 0, 0.75);
     transform: translateY(0px);
+    /* background-color: #227f83;
+    color:#f6f4eb; */
 }
 
 /*footer*/
