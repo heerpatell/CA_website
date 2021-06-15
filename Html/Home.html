@@ -63,16 +63,17 @@
   </div>
 
   <!--Nav-->
-  <nav class="navbar sticky-top">
-    <div class="d-flex justify-content-start mx-auto container">
-      <a class="navbar-brand text-decoration-none" href="#">Home</a>
+  <nav class="navbar sticky-top topnav" id="myTopnav">
+    <div class="d-flex justify-content-start mx-auto container-fluid">
+      <a class="navbar-brand text-decoration-none active" href="#">Home</a>
       <a class="navbar-brand text-decoration-none" href="#">Services</a>
       <a class="navbar-brand text-decoration-none" href="#">Basic info</a>
       <a class="navbar-brand text-decoration-none" href="#">Utilities</a>
       <a class="navbar-brand text-decoration-none" href="#">About us</a>
       <a class="navbar-brand text-decoration-none" href="#">Contact us</a>
     </div>
-  </nav>
+  </nav> 
+
   <!--Slider-->
   <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
     <div class="carousel-indicators">
@@ -125,186 +126,89 @@
   <!--News Section-->
 
   <h3 class="d-flex text-uppercase justify-content-center  m-4" style="color: #227f83;">News Section</h3>
-
-  <div class="row mb-2 my-4" style="margin: auto; column-count: 3;">
-    <div class="col-md-6">
-      <div class="c1">
-      <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
-        <div class="col p-4 d-flex flex-column position-static" style="background-color: #f6f4eb ">
-          <strong class="d-inline-block mb-2 text-primary " style="color: #227f83;" >News</strong>
-          <h3 class="mb-0">Featured post</h3>
-          <div class="mb-1 text-muted">Nov 12</div>
-          <p class="card-text mb-auto">This is a wider card with supporting text below as a natural lead-in to
-            additional content.</p>
-          <a href="#" class="stretched-link">Continue reading</a>
-        </div>
-        <div class="col-auto d-none d-lg-block">
-          <img class="bd-placeholder-img" width="200" height="250" src="/Images/obi-onyeador-UEQvUtRs224-unsplash.jpg" alt="" srcset="">
-        </div>
-        <span class="border-top border-primary"></span>
-      </div>
-      </div>
-    </div>
-    <div class="col-md-6">
-      <div class="c2">
-      <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
-        <div class="col p-4 d-flex flex-column position-static" style="background-color: #f6f4eb">
-          <strong class="d-inline-block mb-2 text-success" style="color: #227f83;">Due-Date</strong>
-          <h3 class="mb-0">Post title</h3>
-          <div class="mb-1 text-muted">Nov 11</div>
-          <p class="mb-auto">This is a wider card with supporting text below as a natural lead-in to additional content.
-          </p>
-          <a href="#" class="stretched-link">Continue reading</a>
-        </div>
-        <div class="col-auto d-none d-lg-block">
-          <img class="bd-placeholder-img" width="200" height="250" src="/Images/charles-deluvio-Gd8c0cNkbJk-unsplash.jpg" alt="" srcset="">
-        </div>
-        <span class="border-top border-primary"></span>
-      </div>
-      </div>
-    </div>
-
-  </div>
-  
-
-  <div class="row mb-2 my-16" style="margin: auto; column-count: 3; ">
-    <div class="col-md-6">
-      <div class="c3">
-      <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
-        <div class="col p-4 d-flex flex-column position-static" style="background-color: #f6f4eb">
-          <strong class="d-inline-block mb-2 text-primary" style="color: #227f83;">Circulars</strong>
-          <h3 class="mb-0">Featured post</h3>
-          <div class="mb-1 text-muted">Nov 12</div>
-          <p class="card-text mb-auto">This is a wider card with supporting text below as a natural lead-in to
-            additional content.</p>
-          <a href="#" class="stretched-link">Continue reading</a>
-        </div>
-        <div class="col-auto d-none d-lg-block">
-          <img class="bd-placeholder-img" width="200" height="250" src="/Images/circular.jpg" alt="" srcset="">
-
-        </div>
-        <span class="border border-primary"></span>
-      </div>
-      </div>
-    </div>
-    <div class="col-md-6">
-      <div class="c4">
-      <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
-        <div class="col p-4 d-flex flex-column position-static" style="background-color: #f6f4eb">
-          <strong class="d-inline-block mb-2 text-success" style="color: #227f83;">Other-Notices</strong>
-          <h3 class="mb-0">Post title</h3>
-          <div class="mb-1 text-muted">Nov 11</div>
-          <p class="mb-auto">This is a wider card with supporting text below as a natural lead-in to additional content.
-          </p>
-          <a href="#" class="stretched-link">Continue reading</a>
-        </div>
-        <div class="col-auto d-none d-lg-block">
-          <img class="bd-placeholder-img" width="200" height="250" src="/Images/notice.jpg" alt="" srcset="">
-
-        </div>
-        <span class="border-top border-primary"></span>
-      </div>
-      </div>
-    </div>
-  </div>
-  
   <hr style="color: #227f83;">
   
-  
   <!--Our Services-->
-  <h3 class="d-flex text-uppercase justify-content-center  m-4" style="color: #227f83;">Our Services</h3>
-  <div class="row container my-4 mx-5">
-    <div class="d-flex justify-content-center align-item-center col-md-4 col-lg-4 col-sm-4">
-      <div class="card border-success" style="width: 18rem;">
-        <div class="card-body">
-          <h5 class="card-title text-center">GST regestration</h5>
-          <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-        </div>
+  <h3 class="d-flex text-uppercase justify-content-center m-4 " style="color: #227f83;">Our Servicces</h3>
+   <div class="row ">
+    <div class="d-flex justify-content-center align-item-center col-md-3 col-lg-4 col-sm-4 mb-4">
+      <div class="serv">
+        <p class="serv-title">GST regestration</p> 
+        <p class="serv-body">Any information will be <br> availabe here!</p>
       </div>
     </div>
-    <div class="d-flex justify-content-center align-item-center col-md-4 col-lg-4 col-sm-4">
-      <div class="card border-success " style="width: 18rem;">
-        <div class="card-body">
-          <h5 class="card-title text-center">Company regestration</h5>
-          <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-        </div>
+    <div class="d-flex justify-content-center align-item-center col-md-3 col-lg-4 col-sm-4 mb-4">
+      <div class="serv">
+        <p class="serv-title">Company regestration</p>
+        <p class="serv-body">Any information will be <br> availabe here!</p>
+      </div> 
+    </div>
+    <div class="d-flex justify-content-center align-item-center col-md-3 col-lg-4 col-sm-4 mb-4">
+      <div class="serv">
+        <p class="serv-title">IT regestration</p> 
+        <p class="serv-body">Any information will be <br> availabe here!</p>
       </div>
     </div>
-    <div class="d-flex justify-content-center align-item-center col-md-4 col-lg-4 col-sm-4">
-      <div class="card border-success " style="width: 18rem;">
-        <div class="card-body">
-          <h5 class="card-title text-center">IT return</h5>
-          <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-        </div>
+  </div>  
+  <div class="row ">
+    <div class="d-flex justify-content-center align-item-center col-md-3 col-lg-4 col-sm-4 mb-4">
+      <div class="serv">
+        <p class="serv-title">Calculator</p> 
+        <p class="serv-body">Any information will be <br> availabe here!</p>
       </div>
     </div>
-  </div>
-
-  <div class="row container my-4 mx-5">
-    <div class="d-flex justify-content-center align-item-center col-md-4 col-lg-4 col-sm-4">
-      <div class="card border-success " style="width: 18rem;">
-        <div class="card-body">
-          <h5 class="card-title text-center">Calculator</h5>
-          <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-          <a href="#" class="btn btn-primary" style="background-color: #227f83;">Caluculate</a>
-        </div>
+    <div class="d-flex justify-content-center align-item-center col-md-3 col-lg-4 col-sm-4 mb-4">
+      <div class="serv">
+        <p class="serv-title">Trademark regestration</p> 
+        <p class="serv-body">Any information will be <br> availabe here!</p>
       </div>
     </div>
-    <div class="d-flex justify-content-center align-item-center col-md-4 col-lg-4 col-sm-4">
-      <div class="card border-success " style="width: 18rem;">
-        <div class="card-body">
-          <h5 class="card-title text-center">Trademark Registration</h5>
-          <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-        </div>
+    <div class="d-flex justify-content-center align-item-center col-md-3 col-lg-4 col-sm-4 mb-4">
+      <div class="serv">
+        <p class="serv-title">Other regestration</p> 
+        <p class="serv-body">Any information will be <br> availabe here!</p>
       </div>
     </div>
-    <div class="d-flex justify-content-center align-item-center col-md-4 col-lg-4 col-sm-4">
-      <div class="card border-success " style="width: 18rem;">
-        <div class="card-body">
-          <h5 class="card-title text-center">Investment Approvals</h5>
-          <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-        </div>
-      </div>
-    </div>
-  </div>
+  </div>     
   <hr style="color: #227f83;">
 
   <!--Our Capabilities-->
   <h3 class="d-flex text-uppercase justify-content-center m-4 " style="color: #227f83;">Our Capabilities</h3>
-  <div class="row container my-4 mx-5">
-    <div class="d-flex justify-content-center align-item-center col-md-3 col-sm-3 col-lg-3">
-      <div class="card border-success capibilities" >
-        <img src="/Images/24x7.png" class="card-img-top" alt="...">
-        <div class="card-body capibilities-body">
-          <h5 class="card-title text-center">24x7 Support</h5>
+  <div class="row">
+    <div class="d-flex justify-content-center align-item-center col-md-3 col-lg-3 col-sm-3 mb-4">
+      <div class="cap">
+        <img src="/Images/24x7.png" alt="24x7" style="width:100% ">
+        <div class="cap-body">
+          <p>24x7</p>
         </div>
       </div>
     </div>
-    <div class="d-flex justify-content-center align-item-center col-md-3 col-sm-3 col-lg-3">
-      <div class="card border-success capibilities" >
-        <img src="/Images/planning.png" class="card-img-top" alt="...">
-        <div class="card-body capibilities-body">
-          <h5 class="card-title text-center">Planning</h5>
+    <div class="d-flex justify-content-center align-item-center col-md-3 col-lg-3 col-sm-3 mb-4">
+      <div class="cap">
+        <img src="/Images/planning.png" alt="Planning" style="width:100% ">
+        <div class="cap-body">
+          <p>Planning</p>
         </div>
       </div>
     </div>
-    <div class="d-flex justify-content-center align-item-center col-md-3 col-sm-3 col-lg-3">
-      <div class="card border-success capibilities" >
-        <img src="/Images/QualityControl.png" class="card-img-top" alt="...">
-        <div class="card-body capibilities-body">
-          <h5 class="card-title text-center">Quality Control</h5>
+    <div class="d-flex justify-content-center align-item-center col-md-3 col-lg-3 col-sm-3 mb-4">
+      <div class="cap">
+        <img src="/Images/QualityControl.png" alt="Quality Control" style="width:100% ">
+        <div class="cap-body">
+          <p>Quality Control</p>
         </div>
       </div>
     </div>
-    <div class="d-flex justify-content-center align-item-center col-md-3 col-sm-3 col-lg-3">
-      <div class="card border-success capibilities" >
-        <img src="/Images/marketing.png" class="card-img-top" alt="...">
-        <div class="card-body capibilities-body">
-          <h5 class="card-title text-center">Marketing</h5>
+    <div class="d-flex justify-content-center align-item-center col-md-3 col-lg-3 col-sm-3 mb-4">
+      <div class="cap">
+        <img src="/Images/marketing.png" alt="Marketing" style="width:100% ">
+        <div class="cap-body">
+          <p>Marketing</p>
         </div>
       </div>
     </div>
   </div>
+  <hr style="color: #227f83;">
 
   <!-- Footer -->
   <footer class="text-center text-lg-start text-muted " style="background-color: #f6f4eb;">
