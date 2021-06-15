@@ -1,0 +1,159 @@
+/*OUR EXPERT TEAM CSS FILE */
+*
+{
+    margin:0;
+    padding: 0;
+    font-family: 'poppins', sans-serif;
+}
+html,body{
+    max-width: 100%;
+    overflow-x: hidden;
+}
+.section8b{
+    display: flex ;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background: #f6f4eb;
+    min-height: 100vh;
+}
+
+span{
+    display: inline-block;
+    text-decoration: none;
+    color: inherit;
+   }
+.section-head8b{
+    margin-top: 40px;
+     margin-bottom: 30px;
+}
+
+.section-head8b h2{
+     
+    position: relative;
+    padding: 0;
+    color: #227f83;
+    line-height: 1;
+    letter-spacing: 0.3px;
+    font-size: 34px;
+    font-weight: 700;
+    text-align: center;
+    text-transform: none;
+    margin-bottom: 30px;
+}
+
+.section-head8b h2::before{
+    content:'';
+    width: 60px;
+    height: 3px;
+    background: #227f83;
+    position: absolute;
+    bottom: -10px;
+    left: 0;
+    right: 0;
+    margin:0 auto;
+}
+
+.section-head8b h2 span{
+    font-weight: 700;
+    padding-bottom: 5px;
+    color: slategrey;
+}
+
+.section-head8b p{
+    color:slategray;
+    font-size: 16px;
+    line-height: 28px;
+    text-align: center;
+}
+.container8b{
+    position: relative;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 40px 0;
+}
+.container8b .card8b{
+    position: relative;
+    width: 250px;
+    height: 350px;
+    background: rgba(255, 255, 255, 0.05);
+    margin: 20px;
+    box-shadow: 0 15px 35px #85C7B5;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    backdrop-filter: blur(10px);
+}
+.container8b .card8b .content8b{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    opacity: 0.5;
+    transition: 0.5s;
+}
+.container8b .card8b:hover .content8b{
+    opacity: 1;
+    transform: translateY(-40px);
+}
+.container8b .card8b .content8b .imgBx{
+    position: relative;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 8px solid #7e2559;
+}
+.container8b .card8b .content8b .imgBx img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.container8b .card8b .content8b .contentBx h3{
+    color: #227f83;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 500;
+    font-size: 18px;
+    text-align: center;
+    margin: 20px 0 10px;
+    line-height: 1.1em;
+}
+
+.container8b .card8b .content8b .contentBx h3 span{
+    font-size: 12px;
+    font-weight: 300;
+    text-transform: initial;
+}
+.container8b .card8b .sci{
+    position: absolute;
+    bottom: 50px;
+    display: flex;
+}
+.container8b .card8b .sci li{
+    list-style: none;
+    margin: 0 10px;
+    transform: translateY(40px);
+    transition: 0.5s;
+    opacity: 0;
+    transition-delay: calc(0.1s * var(--i));
+}
+.container8b .card8b:hover .sci li{
+    transform: translateY(0px);
+    opacity: 1;
+}
+.container8b .card8b .sci li a{
+    color: #227f83;
+    font-size: 24px;
+}
+.sci{
+    padding-right: 40px;
+}
