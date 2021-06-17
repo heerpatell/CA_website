@@ -1,0 +1,116 @@
+/*OUR CAPABILITIES CSS FILE */
+
+*{
+    margin: 0; 
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  span{
+      display: inline-block;
+      text-decoration: none;
+      color: inherit;
+     }
+  
+  .section-head{
+       margin-bottom: 30px;
+  }
+  
+  .section-head h2{
+       
+      position: relative;
+      padding: 0;
+      color: #227f83;
+      line-height: 1;
+      letter-spacing: 0.3px;
+      font-size: 34px;
+      font-weight: 700;
+      text-align: center;
+      text-transform: none;
+      margin-bottom: 30px;
+  }
+  
+  .section-head h2::before{
+      content:'';
+      width: 60px;
+      height: 3px;
+      background: #227f83;
+      position: absolute;
+      bottom: -10px;
+      left: 0;
+      right: 0;
+      margin:0 auto;
+  }
+  
+  .section-head h2 span{
+      font-weight: 700;
+      padding-bottom: 5px;
+      color: slategrey;
+  }
+  
+  .section-head p{
+      color:slategray;
+      font-size: 16px;
+      line-height: 28px;
+      text-align: center;
+  }
+  
+  .item{
+      background:#f6f4eb;
+      text-align: center;
+      align-items: center;
+      width:130%;
+      margin-bottom: 30px;
+      margin-right: 80px;
+      padding: 30px 25px;
+      border-radius: 10px;
+      border: 2px solid #7e2559;
+      transform: translateY(10px);
+      -webkit-transition: all 0.5s ease 0s;
+      transition: all 0.5s ease 0s;  
+   }
+  
+   .row{
+      display: flex;
+      justify-content: center;
+      flex-direction: row;
+  }
+  
+  .cards{         
+      margin-right:5rem;
+      
+  }
+  .item:hover{
+      background: #f6f4eb;
+      -webkit-transition: all 0.5s ease 0s;
+      box-shadow: -10px 19px 40px -10px rgba(0,0,0,0.75);
+      transform: translateY(-10px);
+      border: 2px solid #7e2559;
+      transition: all 0.5s ease 0s;  
+  }
+
+  .item:hover h5,
+  .item:hover p{
+    font-weight: bold;
+    color:#227f83;;
+      -webkit-transition: all 0.5s ease 0s;
+      transition: all 0.5s ease 0s;
+  }
+  
+  .item .icon{
+      font-size: 40px;
+      margin-bottom: 30px;
+      color: #227f83;
+      width: 130px;
+      height: 130px;
+      line-height: 70px;
+      border-radius: 40px;
+  }
+  
+  .item h5{
+      margin-bottom: 20px;
+      font-weight: bold;
+      color:#2F2F2F;
+  }
+  
+  
