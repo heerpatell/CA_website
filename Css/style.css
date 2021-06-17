@@ -8,7 +8,7 @@ html,body{
     overflow-x: hidden;
 }
 /* ProgressBar */
-.progress-bar{
+.progress-bar_bg-success{
     height: 5px;
     width: 0;
     background-color: #227f83;
@@ -53,6 +53,7 @@ nav a{
 }
 
 /*news Section*/
+
 div.News {
     width: 220px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -73,13 +74,14 @@ div.News:hover > div.cap-body{font-weight: 700;  color:#f6f4eb ; transform: scal
 /*Our Services*/
 .serv-title{
     text-align: center;
-    font-size:100%;
+    font-size:20px;
     font-weight:620;
     width: 250px;
     padding: 20px;
 }
 .serv-body{
     text-align: center;
+    font-size:15px;
     color: #000;
 }
 .serv:hover{
@@ -106,7 +108,7 @@ div.cap-body {
 div.cap:hover{transform: scale(1.10, 1.10); background-color:#227f83;}
 div.cap:hover > div.cap-body{font-weight: 700;  color:#f6f4eb ; transform: scale(1.2);}
 /*footer*/
-.fa{
+.text-center .social .fa{
     padding: 20px;
     text-decoration: none;
     border-radius: 20%;
@@ -114,23 +116,23 @@ div.cap:hover > div.cap-body{font-weight: 700;  color:#f6f4eb ; transform: scale
     padding: 0.5rem;
     margin: 0.5rem;
 }
-.fa-facebook {
+.text-center .social .fa-facebook {
     color: #227f83;
     border: 0.15rem solid #227f83;
     }
-.fa-twitter {
+.text-center .social .fa-twitter {
     color: #227f83;
     border: 0.15rem solid #227f83;
     }
-.fa-linkedin {
+.text-center .social .fa-linkedin {
     color: #227f83;
     border: 0.15rem solid #227f83;
       }
-.fa-instagram {
+.text-center .social .fa-instagram {
     color: #227f83;
     border: 0.15rem solid #227f83;
     }      
-.fa:hover {
+.text-center .social .fa:hover {
         color: gray;
         border: 0.15rem solid gray;
     }
