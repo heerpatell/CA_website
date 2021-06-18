@@ -1,23 +1,18 @@
 /*OUR CAPABILITIES CSS FILE */
-
 *{
     margin: 0; 
     padding: 0;
     box-sizing: border-box;
   }
-  
   span{
       display: inline-block;
       text-decoration: none;
       color: inherit;
      }
-  
   .section-head{
        margin-bottom: 30px;
   }
-  
-  .section-head h2{
-       
+    .section-head h2{
       position: relative;
       padding: 0;
       color: #227f83;
@@ -29,7 +24,6 @@
       text-transform: none;
       margin-bottom: 30px;
   }
-  
   .section-head h2::before{
       content:'';
       width: 60px;
@@ -41,20 +35,17 @@
       right: 0;
       margin:0 auto;
   }
-  
   .section-head h2 span{
       font-weight: 700;
       padding-bottom: 5px;
       color: slategrey;
   }
-  
   .section-head p{
       color:slategray;
       font-size: 16px;
       line-height: 28px;
       text-align: center;
   }
-  
   .item{
       background:#f6f4eb;
       text-align: center;
@@ -71,16 +62,13 @@
       -webkit-transition: all 0.5s ease 0s;
       transition: all 0.5s ease 0s;  
    }
-  
    .row{
       display: flex;
       justify-content: center;
       flex-direction: row;
   }
-  
   .cards{         
-    margin-right:3rem;
-    
+      margin-right:3rem;
 }
   .item:hover{
       background: #f6f4eb;
@@ -90,7 +78,6 @@
       border: 2px solid #7e2559;
       transition: all 0.5s ease 0s;  
   }
-
   .item:hover h5,
   .item:hover p{
     font-weight: bold;
@@ -98,7 +85,6 @@
       -webkit-transition: all 0.5s ease 0s;
       transition: all 0.5s ease 0s;
   }
-  
   .item .icon{
       font-size: 40px;
       margin-bottom: 20px;
@@ -108,7 +94,6 @@
       line-height: 70px;
       border-radius: 40px;
   }
-  
   .item h5{
       margin-bottom: 20px;
       font-weight: bold;
