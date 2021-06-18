@@ -63,19 +63,19 @@
 </div>
 
   <!--Nav-->
-  <nav class="navbar sticky-top topnav" id="myTopnav">
+  <nav class="nav navbar sticky-top" id="myTopnav">
     <div class="d-flex justify-content-start mx-auto container-fluid">
-      <a class="navbar-brand text-decoration-none active" href="#">Home</a>
-      <a class="navbar-brand text-decoration-none" href="#">Services</a>
-      <a class="navbar-brand text-decoration-none" href="#">Basic info</a>
-      <a class="navbar-brand text-decoration-none" href="#">Utilities</a>
-      <a class="navbar-brand text-decoration-none" href="#">About us</a>
-      <a class="navbar-brand text-decoration-none" href="#">Contact us</a>
+      <a class="navbar-brand text-decoration-none active" href="#home">Home</a>
+      <a class="navbar-brand text-decoration-none" href="#news">News</a>
+      <a class="navbar-brand text-decoration-none" href="#service">Services</a>
+      <a class="navbar-brand text-decoration-none" href="#capabilities">Capabilities</a>
+      <a class="navbar-brand text-decoration-none" href="#expert">About us</a>
+      <a class="navbar-brand text-decoration-none" href="#contact">Contact us</a>
     </div>
   </nav> 
 
   <!--Slider-->
-  <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+  <div id="carouselExampleCaptions home" class="carousel slide" data-bs-ride="carousel">
     <div class="carousel-indicators">
       <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
         aria-current="true" aria-label="Slide 1"></button>
@@ -126,7 +126,11 @@
  
 
   <!--News Section-->
+
 <div class="section-head col-sm-12">
+
+<div class="section-head col-sm-12" id="news">
+
   <h2 data-aos="fade-right" > <span> NEWS  </span> SECTION</h2>
 </div>
   <div class="row mb-2 my-4" style="margin: auto; column-count: 3;">
@@ -216,6 +220,9 @@
   <!--Our Services-->
  
  <div class="section-head col-sm-12">
+
+ <div class="section-head col-sm-12" id="service" >
+
   <h2 data-aos="fade-right" > <span> OUR  </span> SERVICES</h2>
 </div>
   <div class="row">
@@ -262,7 +269,7 @@
 
 
   <!--our capabilities starts-->
-  <div class="pt-5 pb-5">
+  <div class="pt-5 pb-5" id="capabilities">
     <div class="container_capabilities">
         <div class="row">
             <!--heading text and quote -->
@@ -301,13 +308,17 @@
 
 
 <!--our expert team starts-->
-    <section class="section2">
+    <section class="section2" >
         <!--heading text and quote-->
+
         <div class="section-head1 col-sm-12">
+
+        <div class="section-head1 col-sm-12" id="expert">
+
             <h2 data-aos="fade-right"><span> OUR  </span> EXPERT TEAM</h2>
             <p> Great things in business are never done by one person,<br> They're done by a team of people.</p>
         </div>
-        <div class="container_expert_team">
+        <div class="container_expert_team" >
            <!--card 1starts -->
            <div class="card"> 
                <div class="content">
@@ -455,7 +466,7 @@ $(window).on('load', function() {
 <!--counter up ends here-->
 
 <!--contact us starts here-->
-<div class="contact_us_container">
+<div class="contact_us_container" id="contact">
     <div class="contact_us">
         <div class="form_head_text">I Would Like To Consult: </div>
         <form action="#"> 
@@ -623,7 +634,7 @@ $(window).on('load', function() {
 
   <script src="/JavaScript/script.js">
   </script>
-  
+
 </body>
 
 </html>
@@ -632,4 +643,8 @@ $(window).on('load', function() {
   AOS.init({
       duration:1300,
   });
+
 </SCRIPT>
+
+</SCRIPT>
+
