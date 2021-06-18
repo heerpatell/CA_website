@@ -32,7 +32,14 @@
   <!-- Latest compiled JavaScript -->
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
   <title>CA Website</title>
+
+  <!--AOS-->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <!--AOS-->
+
 </head>
+
 
 <body>
 
@@ -74,19 +81,19 @@
   </div>
 
   <!--Nav-->
-  <nav class="navbar sticky-top topnav" id="myTopnav">
+  <nav class="nav navbar sticky-top" id="myTopnav">
     <div class="d-flex justify-content-start mx-auto container-fluid">
-      <a class="navbar-brand text-decoration-none active" href="#">Home</a>
-      <a class="navbar-brand text-decoration-none" href="#">Services</a>
-      <a class="navbar-brand text-decoration-none" href="#">Basic info</a>
-      <a class="navbar-brand text-decoration-none" href="#">Utilities</a>
-      <a class="navbar-brand text-decoration-none" href="#">About us</a>
-      <a class="navbar-brand text-decoration-none" href="#">Contact us</a>
+      <a class="navbar-brand text-decoration-none active" href="#home">Home</a>
+      <a class="navbar-brand text-decoration-none" href="#news">News</a>
+      <a class="navbar-brand text-decoration-none" href="#service">Services</a>
+      <a class="navbar-brand text-decoration-none" href="#capabilities">Capabilities</a>
+      <a class="navbar-brand text-decoration-none" href="#expert">About us</a>
+      <a class="navbar-brand text-decoration-none" href="#contact">Contact us</a>
     </div>
   </nav> 
 
   <!--Slider-->
-  <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+  <div id="carouselExampleCaptions home" class="carousel slide" data-bs-ride="carousel">
     <div class="carousel-indicators">
       <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
         aria-current="true" aria-label="Slide 1"></button>
@@ -137,8 +144,9 @@
  
 
   <!--News Section-->
-  <h3 class="d-flex text-uppercase" style="color: #227f83; font-weight: 600; margin-bottom: 50px; justify-content: center;">News Section</h3>
-  
+<div class="section-head col-sm-12" id="news">
+  <h2 data-aos="fade-right" > <span> NEWS  </span> SECTION</h2>
+</div>
   <div class="row mb-2 my-4" style="margin: auto; column-count: 3;">
     <div class="col-md-6">
       <div class="c1">
@@ -224,21 +232,24 @@
   <hr style="color: #227f83;">
   
   <!--Our Services-->
-  <h3 class="d-flex text-uppercase" style="color: #227f83;font-weight: 600; margin-bottom: 60px; justify-content: center;">Our Services</h3>
-   <div class="row">
-    <div class="d-flex justify-content-center align-item-center col-md-3 col-lg-4 col-sm-4 mb-4">
+ 
+ <div class="section-head col-sm-12" id="service" >
+  <h2 data-aos="fade-right" > <span> OUR  </span> SERVICES</h2>
+</div>
+  <div class="row">
+    <div class="d-flex justify-content-center align-item-center col-md-3 col-lg-4 col-sm-4 mb-4" data-aos="zoom-in-right" >
       <div class="serv">
-        <p class="serv-title">GST <br>regestration</p> 
+        <p class="serv-title">GST <br>registration</p> 
         <p class="serv-body">Any information will be <br> availabe here!</p>
       </div>
     </div>
-    <div class="d-flex justify-content-center align-item-center col-md-3 col-lg-4 col-sm-4 mb-4">
+    <div class="d-flex justify-content-center align-item-center col-md-3 col-lg-4 col-sm-4 mb-4" data-aos="zoom-in-down">
       <div class="serv">
         <p class="serv-title">Company <br>regestration</p>
         <p class="serv-body">Any information will be <br> availabe here!</p>
       </div> 
     </div>
-    <div class="d-flex justify-content-center align-item-center col-md-3 col-lg-4 col-sm-4 mb-4">
+    <div class="d-flex justify-content-center align-item-center col-md-3 col-lg-4 col-sm-4 mb-4" data-aos="zoom-in-left">
       <div class="serv">
         <p class="serv-title">IT <br>regestration</p> 
         <p class="serv-body">Any information will be <br> availabe here!</p>
@@ -246,22 +257,22 @@
     </div>
   </div>  
   <div class="row ">
-    <div class="d-flex justify-content-center align-item-center col-md-3 col-lg-4 col-sm-4 mb-4">
+    <div class="d-flex justify-content-center align-item-center col-md-3 col-lg-4 col-sm-4 mb-4" data-aos="zoom-in-right">
       <div class="serv">
         <p class="serv-title"> GST <br>Calculator</p> 
         <p class="serv-body">Any information will be <br> availabe here!</p>
       </div>
     </div>
-    <div class="d-flex justify-content-center align-item-center col-md-3 col-lg-4 col-sm-4 mb-4">
+    <div class="d-flex justify-content-center align-item-center col-md-3 col-lg-4 col-sm-4 mb-4" data-aos="zoom-in-up">
       <div class="serv">
         <p class="serv-title">Trademark<br> regestration</p> 
         <p class="serv-body">Any information will be <br> availabe here!</p>
       </div>
     </div>
-    <div class="d-flex justify-content-center align-item-center col-md-3 col-lg-4 col-sm-4 mb-4">
+    <div class="d-flex justify-content-center align-item-center col-md-3 col-lg-4 col-sm-4 mb-4" data-aos="zoom-in-left">
       <div class="serv">
         <p class="serv-title">Other<br> regestration</p> 
-        <p class="serv-body">Any information will be <br> availabe here!</p>
+        <p class="serv-body">Any information will be <br> available here!</p>
       </div>
     </div>
   </div>     
@@ -269,34 +280,34 @@
 
 
   <!--our capabilities starts-->
-  <div class="pt-5 pb-5">
+  <div class="pt-5 pb-5" id="capabilities">
     <div class="container_capabilities">
         <div class="row">
             <!--heading text and quote -->
             <div class="section-head col-sm-12">
-                <h2><span> OUR  </span> CAPABILITIES</h2>
+                <h2 data-aos="fade-right" > <span> OUR  </span> CAPABILITIES</h2>
                 <p> Customer service shouldn't just be a department,<br> it should be the entire company.</p>
             </div>
             <!-- card 1 -->
-           <div class="cards col-lg-2 col-sm-4">
-              <div class="item"> <span class="icon feature_box_col_one"> <img src="/Images/247.png" width="300" height="130" class="card-img-top" alt="..."></span>
+           <div class="cards col-lg-2 col-sm-4" data-aos="flip-left">
+              <div class="item" > <span class="icon feature_box_col_one"> <img src="/Images/247.png" width="300" height="130" class="card-img-top" alt="..."></span>
                  <h5>24/7 <br>SUPPORT</h5>
               </div>
            </div>
            <!-- card 2 -->
-           <div class="cards col-lg-2 col-sm-4">
+           <div class="cards col-lg-2 col-sm-4" data-aos="flip-left">
               <div class="item"> <span class="icon feature_box_col_two"><img src="/Images/planning.png" class="card-img-top" width="300" height="130"  alt="..."></span>
                  <h5><br>PLANNING</h5> 
               </div>
            </div>
            <!-- card 3 -->
-           <div class="cards col-lg-2 col-sm-4">
+           <div class="cards col-lg-2 col-sm-4" data-aos="flip-right">
               <div class="item"> <span class="icon feature_box_col_three"><img src="/Images/QualityControl.png" width="300" height="130" class="card-img-top" alt="..."></span>
                  <h5>QUALITY <br>CONTROL</h5> 
              </div>
            </div>
            <!-- card 4 -->
-           <div class="cards col-lg-2 col-sm-4">
+           <div class="cards col-lg-2 col-sm-4" data-aos="flip-right">
               <div class="item"> <span class="icon feature_box_col_four"><img src="/Images/marketing.png" width="300" height="130" class="card-img-top" alt="..."></span>
                  <h5><br>MARKETING</h5> 
               </div>
@@ -308,13 +319,13 @@
 
 
 <!--our expert team starts-->
-    <section class="section2">
+    <section class="section2" >
         <!--heading text and quote-->
-        <div class="section-head1 col-sm-12">
-            <h2><span> OUR  </span> EXPERT TEAM</h2>
+        <div class="section-head1 col-sm-12" id="expert">
+            <h2 data-aos="fade-right"><span> OUR  </span> EXPERT TEAM</h2>
             <p> Great things in business are never done by one person,<br> They're done by a team of people.</p>
         </div>
-        <div class="container_expert_team">
+        <div class="container_expert_team" >
            <!--card 1starts -->
            <div class="card"> 
                <div class="content">
@@ -462,7 +473,7 @@ $(window).on('load', function() {
 <!--counter up ends here-->
 
 <!--contact us starts here-->
-<div class="contact_us_container">
+<div class="contact_us_container" id="contact">
     <div class="contact_us">
         <div class="form_head_text">I Would Like To Consult: </div>
         <form action="#"> 
@@ -625,7 +636,12 @@ $(window).on('load', function() {
   <script src="/JavaScript/script.js">
   </script>
 
-
 </body>
 
 </html>
+
+<SCRIPT>
+  AOS.init({
+      duration:1300,
+  });
+</SCRIPT>
