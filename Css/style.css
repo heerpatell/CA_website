@@ -24,6 +24,27 @@ html,body{
     /* position:relative; left:600px;  */
     display: inline-block;
 }
+.navtop-container{
+    display: flex;
+    background: linear-gradient(115deg,  #227f83 10%,  #85c7b5 90%);
+    flex-direction: row;
+    padding: 15px;
+}
+
+.call-navtop a{
+    color: #fff;
+    font-size: 19px;
+    padding-right: 25px;
+    padding-left: 10px;
+    text-decoration: none;
+}
+
+.mail-navtop a{
+    color: #fff;
+    font-size: 19px;
+    text-decoration: none;
+}
+
 /*Nav*/
 nav{
     background-color: #f6f4eb;
