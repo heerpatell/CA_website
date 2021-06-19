@@ -46,6 +46,7 @@ html,body{
 }
 
 /*Nav*/
+
 nav{
     background-color: #f6f4eb;
     box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
@@ -58,11 +59,97 @@ nav a{
     transition-property: text;
     font-size: 1rem;
 }
- nav a:hover{
+
+nav a{
+    justify-content: space-around;
+    text-decoration: none;
+    font-size: large;
+}
+ nav a.navbar-brandy:hover{
     border-bottom: 4px solid #227f83;
     transition: .5s;
     color: black;
+
 }
+ 
+
+/*.navbar{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    color: white;
+}
+
+
+.nav-link ul{
+    margin: 0;
+    padding: 0;
+    display: flex;
+
+}
+
+.nav-link li{
+    list-style: square;
+    text-decoration: none;
+}
+
+.nav-link li a{
+    text-decoration: none;
+    color: white;
+    padding: 1rem;
+    display:block;
+    text-decoration: none;
+    
+}
+
+.nav-link li:hover{
+    margin-bottom: 13/px;
+    border-bottom: #555;
+    
+}
+
+
+
+
+.navbar-brand{
+    font-size: 3rem;
+    margin: .5rem;
+    padding: 14px;
+    font-weight: bolder;
+    
+}
+
+.navbar-brand :hover{
+    background-color: aqua;
+}
+.navbar-nav{
+    margin: 1rem;
+    font-size: 1rem;
+    justify-content: space-around;
+    font-weight: bold;
+    display: flex;
+    padding: 14px;
+
+}
+nav{
+    justify-content: space-around;
+    color: black;
+    background-color: cadetblue;
+}
+.nav-link :hover{
+    margin-bottom:13/px;
+
+}*/
+
+.logo-image{
+    width:176px;
+    height:86px;
+    border-radius: 50%;
+    
+
+}
+
 .serv{
     background:#f6f4eb;
     border: solid 1px green;
@@ -72,11 +159,26 @@ nav a{
     height: 200px;
     transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
 }
+
+
+.navbar-collapse.in{
+    display: block;
+}
 #myTopnav{
     position: sticky !important;
     top: 0;
 }
+
+.carousel{
+    width: 100%;
+    height: fit-content;
+    
+}
+
 /*news Section*/
+
+
+
 
 div.News {
     width: 220px;
