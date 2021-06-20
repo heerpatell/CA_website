@@ -52,7 +52,7 @@ nav{
     box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
 }
 nav a{
-    padding: 10px;
+    padding: 20px;
     color: #227f83;
     text-decoration: none;
     border-bottom: 4px solid transparent;
